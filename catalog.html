@@ -2,27 +2,28 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title> "<Бородинский Каталог товаров"</title>
+    <title>Бородинский Каталог товаров</title>
   </head>
   <body>
      <header class="main-header">     <!--хедер страницы  -->
+       <a class="header-logo" href="/"></a>
         <div class="container">
           <nav class="main-navigation">          <!--Основная навигация  -->
             <ul>
               <li>
-                <a href="#"> Информация </a>
+                <a href="#">Информация</a>
               </li>
               <li>
-                <a href="#"> Новости </a>
+                <a href="#">Новости</a>
               </li>
               <li>
-                <a href="#"> Прайс-лист </a>
+                <a href="#">Прайс-лист</a>
               </li>
               <li>
-                <a href="#"> Магазин </a>
+                <a>Магазин</a>
               </li>
               <li>
-                <a href="#"> Контакты </a>
+                <a href="#">Контакты</a>
               </li>
             </ul>
           </nav>     <!--основная навигация конец  -->
@@ -33,119 +34,119 @@
      </header> <!--хедер страницы конец  -->
 
      <main class="container">  <!--основной контейнер страницы -->
-       <div class="Caption">
+       <div class="caption">
        <h1>Средства для ухода</h1>
        <nav class="breadcrumbs">  <!--дополнительная навигация-->
          <ul>
            <li>
-             <a href="#"> Главная </a>
+             <a href="#">Главная</a>
            </li>
            <li>
-             <a href="#"> Магазин </a>
+             <a>Магазин</a>
            </li>
            <li>
-             <p> Средства для ухода </p>
+             <p>Средства для ухода</p>
            </li>
          </ul>
       </nav> <!--дополнительная навигация конец-->
       </div>
-      <div class="Items-selection">
-        <div class="Items-selection-left"> <!--блок сортировки производителя товара начало-->
-          <h2 class="Items-selection-title">Производители:</h2>
+      <div class="items-selection">
+        <aside class="items-selection-left"> <!--блок сортировки производителя товара начало-->
           <form action="#" method="post">
-            <input class="box" type="checkbox" name="brand1" id="select-brand1">
-            <label for="select-brand1">Baxter of California</label>
-            <input class="box" type="checkbox" name="brand2" id="select-brand2">
-            <label for="select-brand2">Mr Natty</label>
-            <input class="box" type="checkbox" name="brand3" id="select-brand3">
-            <label for="select-brand3">Sauvecito</label>
-            <input class="box" type="checkbox" name="brand4" id="select-brand4">
-            <label for="select-brand1">Malin+Goetz</label>
-            <input class="box" type="checkbox" name="brand5" id="select-brand5">
-            <label for="select-brand5">Murray's</label>
-            <input class="box" type="checkbox" name="brand6" id="select-brand6">
-            <label for="select-brand6">American Crew</label>
-              <br>
-            <h2 class="Items-selection-title">Группа товаров:</h2>
-            <input class="circle" type="checkbox" name="group item1" id="select-group-item1">
-            <label for="select-group-item1">Бритвенные принадлежности</label>
-            <input class="circle" type="checkbox" name="group item2" id="select-group-item2">
-            <label for="select-group-item2">Средства для ухода</label>
-            <input class="circle" type="checkbox" name="group item3" id="select-group-item3">
-            <label for="select-group-item3">Аксессуары</label>
-              <br>
-            <input class="btn-items-selection" type="submit" value="Показать"> <!--отправка формы-->
+          <fieldset class="items-selection-title">
+            <legend>Производители:</legend>
+            <input class="box" type="checkbox" name="brand1" id="select-baxter">
+            <label for="select-baxter">Baxter of California</label>
+            <input class="box" type="checkbox" name="brand2" id="select-mr-natty">
+            <label for="select-mr-natty">Mr Natty</label>
+            <input class="box" type="checkbox" name="brand3" id="select-sauvecito">
+            <label for="select-sauvecito">Sauvecito</label>
+            <input class="box" type="checkbox" name="brand4" id="select-malin">
+            <label for="select-malin">Malin+Goetz</label>
+            <input class="box" type="checkbox" name="brand5" id="select-murray">
+            <label for="select-murray">Murray's</label>
+            <input class="box" type="checkbox" name="brand6" id="select-american-crew">
+            <label for="select-american-crew">American Crew</label>
+          </fieldset>
+          <fieldset class="items-selection-title">
+              <legend>Группа товаров:</legend>
+            <input class="circle" type="checkbox" name="group item" id="select-shaving">
+            <label for="select-shaving">Бритвенные принадлежности</label>
+            <input class="circle" type="checkbox" name="group item" id="select-care-products">
+            <label for="select-care-products">Средства для ухода</label>
+            <input class="circle" type="checkbox" name="group item" id="select-accessories">
+            <label for="select-accessories">Аксессуары</label>
+          </fieldset>
+            <input class="btn" type="submit" value="Показать"> <!--отправка формы-->
           </form>
-        </div> <!--блок сортировки производителя конец-->
-        <div class="Items-catalog"> <!--блок выбора товаров начало-->
-          <article class="Items-card">
+        </aside> <!--блок сортировки производителя конец-->
+        <section class="items-catalog"> <!--блок выбора товаров начало-->
+          <article class="items-card">
             <img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" >
             <p>Набор для путешествий Baxter of California</p>
-            <b> 2900 р.</b>
-            <a class="btn-Items-card" href="#">Купить</a>
+            <b>2900 р.</b>
+            <a class="btn" href="#">Купить</a>
           </article>
-          <article class="Items-card">
+          <article class="items-card">
             <img src="http://placehold.it/150x100" alt="Увлажняющий кондиционер Baxter of California" >
             <p>Увлажняющий кондиционер Baxter of California</p>
-            <b> 750 р.</b>
-            <a class="btn-Items-card" href="#">Купить</a>
+            <b>750 р.</b>
+            <a class="btn" href="#">Купить</a>
           </article>
-          <article class="Items-card">
+          <article class="items-card">
             <img src="http://placehold.it/150x100" alt="Гель для волос Sauvecito" >
             <p>Гель для волос Sauvecito</p>
-            <b> 290 р.</b>
-            <a class="btn-Items-card" href="#">Купить</a>
+            <b>290 р.</b>
+            <a class="btn" href="#">Купить</a>
           </article>
-          <article class="Items-card">
+          <article class="items-card">
             <img src="http://placehold.it/150x100" alt="Глина для укладки волос American Crew" >
             <p>Глина для укладки волос American Crew</p>
-            <b> 500 р.</b>
-            <a class="btn-Items-card" href="#">Купить</a>
+            <b>500 р.</b>
+            <a class="btn" href="#">Купить</a>
           </article>
-          <article class="Items-card">
+          <article class="items-card">
             <img src="http://placehold.it/150x100" alt="Гель для укладки волос American Crew" >
             <p>Гель для укладки волос American Crew</p>
-            <b> 300 р.</b>
-            <a class="btn-Items-card" href="#">Купить</a>
+            <b>300 р.</b>
+            <a class="btn" href="#">Купить</a>
           </article>
-          <article class="Items-card">
+          <article class="items-card">
             <img src="http://placehold.it/150x100" alt="Набор для бритья Baxter of California" >
             <p>Набор для бритья Baxter of California</p>
-            <b> 3900 р.</b>
-            <a class="btn-Items-card" href="#">Купить</a>
+            <b>3900 р.</b>
+            <a class="btn" href="#">Купить</a>
           </article>
-        </div> <!--блок выбора товаров конец-->
-        <div class="number"> <!--блок номера страниц начало-->
-          <ul>
+        </section> <!--блок выбора товаров конец-->
+        <ol class="pagination"> <!--номера страниц начало-->
             <li>
-              <a class="number-page" href="#"> 1 </a>
+              <a class="btn" href="#">1</a>
             </li>
             <li>
-              <a class="number-page" href="#"> 2 </a>
+              <a class="btn active">2</a>
             </li>
             <li>
-              <a class="number-page" href="#"> 3 </a>
+              <a class="btn" href="#">3</a>
             </li>
             <li>
-              <a class="number-page" href="#"> 3 </a>
+              <a class="btn" href="#">3</a>
             </li>
-          </ul>
-        </div>
-      </div> <!--блок номера страниц конец-->
-     <footer class="main-footer"> <!--футер начало-->
-      <div class="container">
-        <section class="footer-contacts">
+        </ol>    <!--номера страниц конец-->
+      </div>
+      <footer class="main-footer"> <!--футер начало-->
+        <div class="container">
+          <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
           Телефон: +7 (812) 666-02-66
-        </section>
-        <section class="footer-social">
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-        </section>
-        <section class="footer-copyright">
+          </section>
+          <section class="footer-social">
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          </section>
+          <section class="footer-copyright">
           <p>Разработано:</p>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
         </section>

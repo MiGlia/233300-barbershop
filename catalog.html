@@ -8,7 +8,7 @@
 <body>
   <header class="main-header">     <!--хедер страницы  -->
     <div class="container clearfix">
-      <a class="header-logo" href="/"><img src="img/catalog/Logo-header.png" width="111" height="24" alt="Барбершоп"</a>
+      <a class="header-logo" href="/"><img src="img/catalog/Logo-header.png" width="111" height="24" alt="Барбершоп"></a>
       <nav class="main-navigation">          <!--Основная навигация  -->
         <ul>
           <li>
@@ -50,32 +50,32 @@
         </ul>
       </nav> <!--дополнительная навигация конец-->
     </div>
-    <div class="items-selection">
+    <div class="items-selection clearfix">
       <aside class="items-selection-left"> <!--блок сортировки производителя товара начало-->
         <form action="#" method="get">
           <fieldset class="items-selection-title">
             <legend>Производители:</legend>
-            <p><input class="box" type="checkbox" name="brand1" id="select-baxter">
-            <label for="select-baxter">Baxter of California</label></p>
-            <p><input class="box" type="checkbox" name="brand2" id="select-mr-natty">
-            <label for="select-mr-natty">Mr Natty</label></<p>
-            <p><input class="box" type="checkbox" name="brand3" id="select-sauvecito">
-            <label for="select-sauvecito">Sauvecito</label></p>
-            <p><input class="box" type="checkbox" name="brand4" id="select-malin">
-            <label for="select-malin">Malin+Goetz</label></p>
-            <p><input class="box" type="checkbox" name="brand5" id="select-murray">
-            <label for="select-murray">Murray's</label></p>
-            <p><input class="box" type="checkbox" name="brand6" id="select-american-crew">
-            <label for="select-american-crew">American Crew</label></p>
+            <div class="form-group"><input class="box" type="checkbox" name="brand1" id="select-baxter">
+            <label for="select-baxter">Baxter of California</label></div>
+            <div class="form-group"><input class="box" type="checkbox" name="brand2" id="select-mr-natty">
+            <label for="select-mr-natty">Mr Natty</label></div>
+            <div class="form-group"><input class="box" type="checkbox" name="brand3" id="select-sauvecito">
+            <label for="select-sauvecito">Sauvecito</label></div>
+            <div class="form-group"><input class="box" type="checkbox" name="brand4" id="select-malin">
+            <label for="select-malin">Malin+Goetz</label></div>
+            <div class="form-group"><input class="box" type="checkbox" name="brand5" id="select-murray">
+            <label for="select-murray">Murray's</label></div>
+            <div class="form-group"><input class="box" type="checkbox" name="brand6" id="select-american-crew">
+            <label for="select-american-crew">American Crew</label></div>
           </fieldset>
           <fieldset class="items-selection-title">
             <legend>Группа товаров:</legend>
-            <p><input class="circle" type="radio" name="group item" id="select-shaving">
-            <label for="select-shaving">Бритвенные принадлежности</label></p>
-            <p><input class="circle" type="radio" name="group item" id="select-care-products">
-            <label for="select-care-products">Средства для ухода</label></p>
-            <p><input class="circle" type="radio" name="group item" id="select-accessories">
-            <label for="select-accessories">Аксессуары</label></p>
+            <div class="form-group"><input class="circle" type="radio" name="group item" id="select-shaving">
+            <label for="select-shaving">Бритвенные принадлежности</label></div>
+            <div class="form-group"><input class="circle" type="radio" name="group item" id="select-care-products">
+            <label for="select-care-products">Средства для ухода</label></div>
+            <div class="form-group"><input class="circle" type="radio" name="group item" id="select-accessories">
+            <label for="select-accessories">Аксессуары</label></div>
           </fieldset>
           <input class="btn" type="submit" value="Показать"> <!--отправка формы-->
         </form>
@@ -85,7 +85,7 @@
           <img src="img/catalog/item-top-left.jpg" width="220" height="165" alt="Набор для путешествий Baxter of California" >
           <h3 class="items-name">Набор для путешествий Baxter of California</h3>
           <b>2900 р.</b>
-          <a class="btn" href="#">Купить</a>
+          <a class="btn" href="catalog-item.html">Купить</a>
         </article>
         <article class="items-card">
           <img src="img/catalog/item-top-center.jpg" width="220" height="165" alt="Увлажняющий кондиционер Baxter of California" >
@@ -118,7 +118,7 @@
           <a class="btn" href="#">Купить</a>
         </article>
       </section> <!--блок выбора товаров конец-->
-      <ol class="pagination"> <!--номера страниц начало-->
+      <ul class="pagination"> <!--номера страниц начало-->
         <li>
           <a class="btn" href="#">1</a>
         </li>
@@ -129,9 +129,9 @@
           <a class="btn" href="#">3</a>
         </li>
         <li>
-          <a class="btn" href="#">3</a>
+          <a class="btn" href="#">4</a>
         </li>
-      </ol>    <!--номера страниц конец-->
+      </ul>    <!--номера страниц конец-->
     </div>
   </main>
   <footer class="main-footer"> <!--футер начало-->

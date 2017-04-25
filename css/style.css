@@ -87,11 +87,19 @@ body {
   float: right;
   width: 700px;
   margin-bottom: 45px;
+  font-size: 0px;
 }
 .items-card {
   display: inline-block;
   vertical-align: top;
   width: 220px;
+  background-color: green;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.items-card:nth-child(3n) {
+  margin-right: 0;
 }
 .pagination {
   width: 320px;

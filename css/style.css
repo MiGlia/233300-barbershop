@@ -43,7 +43,6 @@ body {
   width: 140px;
   float: right;
 }
-}
 .caption {
   margin-bottom: 53px;
 }
@@ -61,7 +60,6 @@ body {
   width: 390px;
   margin-bottom: 66px;
   margin-top: 40px;
-}
 }
 .main-footer {
   margin-top: 50px;
@@ -89,4 +87,15 @@ body {
   float: right;
   width: 700px;
   margin-bottom: 45px;
+}
+.items-card {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+}
+.pagination {
+  width: 320px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 220px;
 }
